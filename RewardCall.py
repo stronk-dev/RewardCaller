@@ -11,7 +11,7 @@ ORCH_TARGETS = ['http://127.0.0.1:7935']
 
 # Global Constants
 sleepTimeActive = 60        # Wait time when there is any O which has to call reward this round
-sleepTimeIdle = 60 * 60 * 4 # Wait time between round checks
+sleepTimeIdle = 60 * 60 * 1 # Wait time between round checks
 
 # Logs `info` to the terminal with an attached datetime
 def log(info):
