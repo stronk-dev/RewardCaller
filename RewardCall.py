@@ -36,7 +36,7 @@ def getCurrentRound(url):
         return 0
     if r.status_code != 200:
         return 0
-    return int(r.content.hex(), 16)
+    return int(r.json())
 
 class Orchestrator:
   def __init__(self, uri):
