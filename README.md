@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repository has been superseded by the [OrchestratorSiphon](https://github.com/Stronk-Tech/OrchestratorSiphon)
+
 ## better call reward
 
 This script uses a list of configured URL's Orchestrator CLI URL's to get info on the last reward call round and current Livepeer round
